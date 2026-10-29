@@ -1,0 +1,749 @@
+# English translations for eSherpa Login Guard
+msgid ""
+msgstr ""
+"Project-Id-Version: eSherpa Login Guard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-17 08:51+0000\n"
+"PO-Revision-Date: 2026-02-18 16:18+0000\n"
+"Last-Translator: Admin Naumann\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: esherpa-login-guard\n"
+"X-Loco-Version: 2.8.1; wp-6.9.1; php-7.4.18"
+
+#: esherpa-login-guard.php:1463
+msgid "!! Ich habe %d neue Anmeldeversuche erkannt !!"
+msgstr "!! I have detected %d new login attempts !!"
+
+#: esherpa-login-guard.php:1462
+msgid "!! Ich habe einen neuen Anmeldeversuch erkannt !!!"
+msgstr "!! I have detected a new login attempt !!!"
+
+#: esherpa-login-guard.php:1229
+msgid "%d Fehlversuch"
+msgid_plural "%d Fehlversuche"
+msgstr[0] "%d failed attempt"
+msgstr[1] "%d failed attempts"
+
+#: esherpa-login-guard.php:1231
+msgid "%d Versuch verfügbar"
+msgid_plural "%d Versuche verfügbar"
+msgstr[0] "%d attempt available"
+msgstr[1] "%d attempts available"
+
+#: esherpa-login-guard.php:1111
+msgid "/wp-json/wp/v2/users verstecken (verhindert Username-Enumeration)"
+msgstr "Hide /wp-json/wp/v2/users (prevents username enumeration)"
+
+#: esherpa-login-guard.php:1119
+msgid "?author=1 usw. umleiten (verhindert Username-Enumeration über URL)"
+msgstr "Redirect ?author=1 etc. (prevents username enumeration via URL)"
+
+#: esherpa-login-guard.php:656 esherpa-login-guard.php:722
+msgid "Aktion"
+msgstr "Action"
+
+#: esherpa-login-guard.php:1414
+msgid ""
+"Aktiviere die zusätzlichen Sicherheitsmaßnahmen in den Login Guard "
+"Einstellungen."
+msgstr "Activate the additional security measures in the Login Guard settings."
+
+#: esherpa-login-guard.php:1464
+msgid "Aktualisiere die Seite.."
+msgstr "Refresh the page.."
+
+#: esherpa-login-guard.php:611
+msgid "Aktuell gesperrte IPs"
+msgstr "Currently Blocked IPs"
+
+#: esherpa-login-guard.php:792 esherpa-login-guard.php:805
+#: esherpa-login-guard.php:915 esherpa-login-guard.php:928
+#| msgid "← Alle anzeigen"
+msgid "Alle anzeigen"
+msgstr "Show All"
+
+#: esherpa-login-guard.php:1127
+msgid ""
+"Alle Fehlermeldungen im normalen WP-Login (wp-login.php) durch \"Ungültige "
+"Anmeldedaten.\" ersetzen"
+msgstr ""
+"Replace all error messages in the standard WP login (wp-login.php) with "
+"\"Invalid login credentials.\""
+
+#: esherpa-login-guard.php:1459
+msgid "Alles ruhig und sicher – der Wächter meldet Ruh!"
+msgstr "All quiet and safe – the guardian reports calm!"
+
+#: esherpa-login-guard.php:992
+msgid ""
+"Author-Archive (?author=1) werden umgeleitet – verhindert Username-"
+"Enumeration über URL-Parameter."
+msgstr ""
+"Author archives (?author=1) are redirected – prevents username enumeration "
+"via URL parameters."
+
+#: esherpa-login-guard.php:1116
+msgid "Author-Archive blocken"
+msgstr "Block Author Archive"
+
+#: esherpa-login-guard.php:1465
+msgid "Automatische Aktualisierung in %d Sekunden..."
+msgstr "Automatic refresh in %d seconds..."
+
+#: esherpa-login-guard.php:1024
+msgid ""
+"Basisdauer der ersten Sperre. Wird bei jedem weiteren Verstoß verdoppelt. "
+"(Standard: 15)"
+msgstr ""
+"Base duration of the first lockout. Doubles with each subsequent violation. "
+"(Default: 15)"
+
+#: esherpa-login-guard.php:1034
+msgid ""
+"Bei einem Fehlversuch mit einem dieser Namen wird die IP sofort für 1 Stunde "
+"gesperrt – unabhängig von der normalen Zählung."
+msgstr ""
+"When attempting with one of these names, the IP is immediately blocked for 1 "
+"hour – independent of normal counting."
+
+#: esherpa-login-guard.php:987
+msgid ""
+"Bei erfolgreichem Login werden Zähler und Sperre für die IP sofort gelöscht."
+msgstr ""
+"On successful login, counters and lockouts for the IP are immediately "
+"cleared."
+
+#: esherpa-login-guard.php:980
+msgid ""
+"Bei jedem falschen Login wird ein Zähler für die IP erhöht und der versuchte "
+"Benutzername gespeichert."
+msgstr ""
+"For each incorrect login, a counter for the IP is increased and the "
+"attempted username is stored."
+
+#: esherpa-login-guard.php:985
+msgid ""
+"Bei jedem weiteren Verstoß verdoppelt sich die Sperrzeit (15 → 30 → 60 → 120 "
+"Min usw.)."
+msgstr ""
+"For each subsequent violation, the lockout time doubles (15 → 30 → 60 → 120 "
+"min etc.)."
+
+#: esherpa-login-guard.php:943
+msgid "Benutzername"
+msgstr "Username"
+
+#: esherpa-login-guard.php:1401
+msgid "Betroffener Benutzername:"
+msgstr "Affected Username:"
+
+#: esherpa-login-guard.php:752
+msgid "Blockiert wegen"
+msgstr "Blocked due to"
+
+#: esherpa-login-guard.php:1080
+msgid "Bot-Erkennung & Honeypot"
+msgstr "Bot Detection & Honeypot"
+
+#: esherpa-login-guard.php:1068
+msgid "Bot-Passwort-Erfassung"
+msgstr "Bot Password Capture"
+
+#: esherpa-login-guard.php:1088
+msgid ""
+"Bots ohne JavaScript-Unterstützung werden wie Angriffe auf geschützte "
+"Usernamen behandelt (sofortige Sperre mit progressiver Verlängerung)."
+msgstr ""
+"Bots without JavaScript support are treated like attacks on protected "
+"usernames (immediate blocking with progressive extension)."
+
+#: esherpa-login-guard.php:1396
+msgid "Brute-Force-Angriff: Existierender Benutzer attackiert!"
+msgstr "Brute-Force Attack: Existing User Targeted!"
+
+#: esherpa-login-guard.php:1219
+msgid "Danach kannst du es erneut versuchen."
+msgstr "After that you can try again."
+
+#: esherpa-login-guard.php:1415
+msgid ""
+"Dann neuen User anlegen, den betroffenen Account löschen und zuschauen wie "
+"der Angreifer ins Leere hackt ;-)"
+msgstr ""
+"Then create a new user, delete the affected account and watch the attacker "
+"hack into thin air ;-)"
+
+#: esherpa-login-guard.php:978
+msgid ""
+"Das Plugin schützt deine WordPress-Installation vor Brute-Force-Angriffen "
+"durch progressive Sperrzeiten."
+msgstr ""
+"The plugin protects your WordPress installation from brute-force attacks "
+"through progressive lockout times."
+
+#: esherpa-login-guard.php:1133
+msgid "Datenbereinigung"
+msgstr "Data Cleanup"
+
+#: esherpa-login-guard.php:654
+msgid "Dauer"
+msgstr "Duration"
+
+#: esherpa-login-guard.php:986
+msgid ""
+"Der Fehlversuch-Zähler bleibt bis zu 1 Woche aktiv – danach wird er "
+"automatisch zurückgesetzt."
+msgstr ""
+"The failed attempt counter remains active for up to 1 week – after that it "
+"is automatically reset."
+
+#: esherpa-login-guard.php:1400
+msgid ""
+"Der Login Guard hat einen Angriff auf einen existierenden Benutzer erkannt "
+"und die IP sofort gesperrt."
+msgstr ""
+"The Login Guard has detected an attack on an existing user and immediately "
+"blocked the IP."
+
+#: esherpa-login-guard.php:1454
+msgid "Der Wächter schläft nicht – alles ruhig. Ich wache für Dich!"
+msgstr "The guardian doesn't sleep – all quiet. I watch for you!"
+
+#: esherpa-login-guard.php:1453
+msgid ""
+"Die Angreifer schlafen – keine neuen Fehlversuche... ich bleibe wachsam!"
+msgstr ""
+"The attackers are sleeping – no new failed attempts... I remain vigilant!"
+
+#: esherpa-login-guard.php:984
+msgid "Die erste Sperre dauert die eingestellte Basiszeit."
+msgstr "The first lockout lasts the configured base time."
+
+#: esherpa-login-guard.php:1406
+msgid ""
+"Die IP des Angreifers ist jetzt gesperrt – prüfe die Login Guard Übersicht "
+"für Details."
+msgstr ""
+"The attacker's IP is now blocked – check the Login Guard overview for "
+"details."
+
+#: esherpa-login-guard.php:991
+msgid ""
+"Die REST API User-Liste ist blockiert – Angreifer können keine Benutzernamen "
+"mehr automatisch auslesen."
+msgstr ""
+"The REST API user list is blocked – attackers can no longer automatically "
+"read usernames."
+
+#: esherpa-login-guard.php:1045
+msgid ""
+"Diese User-Agents werden bereits beim Aufruf der Login-Seite blockiert – sie "
+"können keinen Login-Versuch starten."
+msgstr ""
+"These User-Agents are blocked when accessing the login page – they cannot "
+"start a login attempt."
+
+#: esherpa-login-guard.php:210
+msgid "Dieser Zugriff wurde blockiert."
+msgstr "This access has been blocked."
+
+#: esherpa-login-guard.php:1229
+#, php-format
+msgid "Du hast %s."
+msgstr "You have %s."
+
+#: esherpa-login-guard.php:241
+msgid "Du hast zu oft falsch eingeloggt."
+msgstr "You have logged in incorrectly too many times."
+
+#: esherpa-login-guard.php:988
+msgid ""
+"Du kannst gesperrte IPs manuell entsperren – der Zähler wird dabei "
+"zurückgesetzt."
+msgstr ""
+"You can manually unlock blocked IPs – the counter is reset in the process."
+
+#: esherpa-login-guard.php:1460
+msgid "Durch diese hohle Gasse wird er kommen.. – von mir bewacht!"
+msgstr "Through this hollow lane he will come.. – guarded by me!"
+
+#: esherpa-login-guard.php:1402
+msgid "E-Mail des Betroffenen:"
+msgstr "Affected Person's Email:"
+
+#: esherpa-login-guard.php:1104
+msgid ""
+"Einer pro Zeile. Diese Usernamen werden in der gefälschten XML-RPC-Antwort "
+"angezeigt, wenn XML-RPC deaktiviert ist. Angreifer versuchen diese – und "
+"landen sofort in deiner Sperre."
+msgstr ""
+"One per line. These usernames are displayed in the fake XML-RPC response "
+"when XML-RPC is disabled. Attackers try these – and immediately land in your "
+"lockout."
+
+#: esherpa-login-guard.php:1009
+msgid "Einstellungen"
+msgstr "Settings"
+
+#: esherpa-login-guard.php:564
+msgid "Einstellungen gespeichert!"
+msgstr "Settings saved!"
+
+#: esherpa-login-guard.php:1145
+msgid "Einstellungen speichern"
+msgstr "Save Settings"
+
+#: esherpa-login-guard.php:705
+msgid "Entsperren"
+msgstr "Unlock"
+
+#: esherpa-login-guard.php:653
+msgid "Entsperrt in"
+msgstr "Unlocked in"
+
+#: esherpa-login-guard.php:914
+msgid "Erfolgreiche Logins für IP"
+msgstr "Successful Logins for IP"
+
+#: esherpa-login-guard.php:927
+msgid "Erfolgreiche Logins mit User-Agent"
+msgstr "Successful Logins with User-Agent"
+
+#: esherpa-login-guard.php:932
+msgid "Erfolgreiche Logins/Logouts & User-Agent"
+msgstr "Successful Logins/Logouts & User-Agent"
+
+#: esherpa-login-guard.php:1021
+msgid "Erste Sperrzeit in Minuten"
+msgstr "First Lockout Time in Minutes"
+
+#. Name of the plugin
+#: esherpa-login-guard.php:595 esherpa-login-guard.php:1418
+msgid "eSherpa Login Guard"
+msgstr "eSherpa Login Guard"
+
+#: esherpa-login-guard.php:717
+msgid "Exakt"
+msgstr "Exact"
+
+#: esherpa-login-guard.php:1062
+msgid "Exakte User-Agent-Übereinstimmung verwenden (anstatt Teilstring)"
+msgstr "Use exact User-Agent matching (instead of substring)"
+
+#: esherpa-login-guard.php:1101
+msgid "Fake-User für XML-RPC-Honeypot"
+msgstr "Fake Users for XML-RPC Honeypot"
+
+#: esherpa-login-guard.php:791
+msgid "Fehlversuche für IP"
+msgstr "Failed Attempts for IP"
+
+#: esherpa-login-guard.php:804
+msgid "Fehlversuche mit User-Agent"
+msgstr "Failed Attempts with User-Agent"
+
+#: esherpa-login-guard.php:1136
+msgid "Fehlversuche nach wie vielen Tagen löschen?"
+msgstr "Delete failed attempts after how many days?"
+
+#: esherpa-login-guard.php:1458
+msgid "Friedliche Zeiten – keine Attacken - Sei beruhigt"
+msgstr "Peaceful times – no attacks - Be reassured"
+
+#: esherpa-login-guard.php:614
+msgid "Geblockte User-Agents"
+msgstr "Blocked User-Agents"
+
+#: esherpa-login-guard.php:1038
+msgid "Geblockte User-Agents (proaktive Sperre)"
+msgstr "Blocked User-Agents (proactive blocking)"
+
+#: esherpa-login-guard.php:212 esherpa-login-guard.php:249
+#: esherpa-login-guard.php:1222 esherpa-login-guard.php:1234
+#: esherpa-login-guard.php:1418
+#, php-format
+msgid "Geschützt von %s"
+msgstr "Protected by %s"
+
+#: esherpa-login-guard.php:1031
+msgid "Geschützte Benutzernamen (einer pro Zeile)"
+msgstr "Protected Usernames (one per line)"
+
+#: esherpa-login-guard.php:836
+msgid "GESPERRT! noch ca."
+msgstr "BLOCKED! about"
+
+#: esherpa-login-guard.php:1399
+msgid "Hallo Admin,"
+msgstr "Hello Admin,"
+
+#: esherpa-login-guard.php:1413
+msgid "Hat der betroffene User Admin-Rechte?"
+msgstr "Does the affected user have admin rights?"
+
+#. Author URI of the plugin
+msgid "https://esherpa.ch"
+msgstr "https://esherpa.ch"
+
+#. URI of the plugin
+msgid "https://esherpa.ch/login-guard"
+msgstr "https://esherpa.ch/login-guard"
+
+#: esherpa-login-guard.php:1457
+msgid "Ich halte Wache – Keiner kommt ungesehen an mir vorbei!"
+msgstr "I stand guard – No one passes unseen by me!"
+
+#: esherpa-login-guard.php:735
+msgid "In Einstellungen bearbeiten"
+msgstr "Edit in Settings"
+
+#. Description of the plugin
+msgid ""
+"Intelligenter Login-Schutz mit progressiver Sperrzeit, Countdown und Admin-"
+"Übersicht."
+msgstr ""
+"Intelligent login protection with progressive lockout time, countdown and "
+"admin overview."
+
+#: esherpa-login-guard.php:652 esherpa-login-guard.php:750
+#: esherpa-login-guard.php:818 esherpa-login-guard.php:941
+msgid "IP (Hash)"
+msgstr "IP (Hash)"
+
+#: esherpa-login-guard.php:574
+msgid "IP entsperrt und Zähler zurückgesetzt."
+msgstr "IP unlocked and counter reset."
+
+#: esherpa-login-guard.php:1404
+msgid "IP-Adresse des Angreifers:"
+msgstr "Attacker's IP Address:"
+
+#: esherpa-login-guard.php:989
+msgid ""
+"IPs werden nur als anonymisierter Hash gespeichert – datenschutzkonform."
+msgstr "IPs are stored only as anonymized hashes – GDPR compliant."
+
+#: esherpa-login-guard.php:1412
+msgid "Ist das Passwort des betroffenen Users leicht zu erraten?"
+msgstr "Is the affected user's password easily guessable?"
+
+#: esherpa-login-guard.php:1083
+msgid "JavaScript-Honeypot aktivieren"
+msgstr "Enable JavaScript Honeypot"
+
+#: esherpa-login-guard.php:1455
+msgid "Kein Angriff in Sicht – alles im grünen Bereich :-)"
+msgstr "No attack in sight – everything in the green zone :-)"
+
+#: esherpa-login-guard.php:1104
+msgid "Keine existierende Usernamen eintragen!"
+msgstr "Do not enter existing usernames!"
+
+#: esherpa-login-guard.php:649
+msgid "Keine IPs aktuell gesperrt – alles ruhig!"
+msgstr "No IPs currently blocked – all quiet!"
+
+#: esherpa-login-guard.php:1411
+msgid "Keine Panik!"
+msgstr "Don't panic!"
+
+#: esherpa-login-guard.php:854
+msgid "Klicken zum Kopieren"
+msgstr "Click to copy"
+
+#: esherpa-login-guard.php:747
+msgid "Letzte blockierte User-Agent-Versuche"
+msgstr "Latest Blocked User-Agent Attempts"
+
+#: esherpa-login-guard.php:809
+msgid "Letzte Fehlversuche mit Benutzernamen & User-Agent"
+msgstr "Latest Failed Attempts with Username & User-Agent"
+
+#: esherpa-login-guard.php:655
+msgid "Letzter User-Agent"
+msgstr "Last User-Agent"
+
+#: esherpa-login-guard.php:214 esherpa-login-guard.php:251
+msgid "Login gesperrt"
+msgstr "Login Blocked"
+
+#: esherpa-login-guard.php:148 esherpa-login-guard.php:149
+msgid "Login Guard"
+msgstr "Login Guard"
+
+#: esherpa-login-guard.php:1228
+msgid "Login-Hinweis:"
+msgstr "Login Hint:"
+
+#: esherpa-login-guard.php:1014
+msgid "Maximale Fehlversuche"
+msgstr "Maximum Failed Attempts"
+
+#: esherpa-login-guard.php:687 esherpa-login-guard.php:692
+#: esherpa-login-guard.php:836
+msgid "Min"
+msgstr "Min"
+
+#: esherpa-login-guard.php:1049
+msgid "Modus: Exakte Übereinstimmung (User-Agent muss genau übereinstimmen)."
+msgstr "Mode: Exact match (User-Agent must match exactly)."
+
+#: esherpa-login-guard.php:1051
+msgid ""
+"Modus: Teilstring-Übereinstimmung (z.B. \"curl\" blockiert alle curl-"
+"Anfragen)."
+msgstr "Mode: Substring matching (e.g. \"curl\" blocks all curl requests)."
+
+#: esherpa-login-guard.php:983
+#, php-format
+msgid "Nach %s Fehlversuchen wird die IP gesperrt."
+msgstr "After %s failed attempts, the IP is blocked."
+
+#: esherpa-login-guard.php:1017
+msgid "Nach wie vielen falschen Logins wird die IP gesperrt? (Standard: 5)"
+msgstr "After how many incorrect logins is the IP blocked? (Default: 5)"
+
+#: esherpa-login-guard.php:1124
+msgid "Neutrale Fehlermeldung im WP-Login"
+msgstr "Neutral Error Message in WP Login"
+
+#: esherpa-login-guard.php:891
+msgid "noch %d möglich"
+msgid_plural "noch %d möglich"
+msgstr[0] "%d more possible"
+msgstr[1] "%d more possible"
+
+#: esherpa-login-guard.php:246
+#, php-format
+msgid "Noch %s warten."
+msgstr "Wait %s more."
+
+#: esherpa-login-guard.php:938
+msgid "Noch keine erfolgreichen Logins aufgezeichnet."
+msgstr "No successful logins recorded yet."
+
+#: esherpa-login-guard.php:815
+msgid "Noch keine Fehlversuche aufgezeichnet."
+msgstr "No failed attempts recorded yet."
+
+#: esherpa-login-guard.php:1071
+msgid "Passwörter von Bots erfassen"
+msgstr "Capture Bot Passwords"
+
+#: esherpa-login-guard.php:1074
+msgid ""
+"Passwörter von erkannten Bots (JS-Honeypot) in der Fehlversuch-Tabelle "
+"anzeigen"
+msgstr ""
+"Display passwords from detected bots (JS honeypot) in the failed attempts "
+"table"
+
+#: esherpa-login-guard.php:719
+msgid "Proaktiv geblockte User-Agents"
+msgstr "Proactively Blocked User-Agents"
+
+#. Author of the plugin
+msgid "Ralf Naumann"
+msgstr "Ralf Naumann"
+
+#: esherpa-login-guard.php:1108
+msgid "REST API User-Liste blocken"
+msgstr "Block REST API User List"
+
+#: esherpa-login-guard.php:1403
+msgid "Rolle(n) des Betroffenen:"
+msgstr "Affected Person's Role(s):"
+
+#: esherpa-login-guard.php:1001
+msgid "So machst du es Angreifern extrem schwer!"
+msgstr "This makes it extremely difficult for attackers!"
+
+#: esherpa-login-guard.php:1028
+msgid "Sofortsperre für geschützte Benutzernamen"
+msgstr "Immediate Lockout for Protected Usernames"
+
+#: esherpa-login-guard.php:711
+msgid "Sperrung abgelaufen"
+msgstr "Lockout expired"
+
+#: esherpa-login-guard.php:823
+msgid "Status"
+msgstr "Status"
+
+#: esherpa-login-guard.php:1456
+msgid "Stille vor dem Sturm? Noch alles ruhig..."
+msgstr "Calm before the storm? Still all quiet..."
+
+#: esherpa-login-guard.php:717
+msgid "Teilstring"
+msgstr "Substring"
+
+#: esherpa-login-guard.php:997
+msgid "Tipp für maximale Sicherheit:"
+msgstr "Tip for maximum security:"
+
+#: esherpa-login-guard.php:668 esherpa-login-guard.php:758
+#: esherpa-login-guard.php:853 esherpa-login-guard.php:952
+msgid "Unbekannt"
+msgstr "Unknown"
+
+#: esherpa-login-guard.php:1388 esherpa-login-guard.php:1389
+msgid "unbekannt"
+msgstr "unknown"
+
+#: esherpa-login-guard.php:511
+msgid "Ungültige Anmeldedaten."
+msgstr "Invalid login credentials."
+
+#: esherpa-login-guard.php:751 esherpa-login-guard.php:822
+#: esherpa-login-guard.php:944
+msgid "User-Agent"
+msgstr "User-Agent"
+
+#: esherpa-login-guard.php:721
+msgid "User-Agent (blockiert beim Login-Aufruf)"
+msgstr "User-Agent (blocked on login access)"
+
+#: esherpa-login-guard.php:1054
+msgid "User-Agent aus der Fehlversuch-Liste kopieren."
+msgstr "Copy User-Agent from the failed attempts list."
+
+#: esherpa-login-guard.php:732 esherpa-login-guard.php:765
+#: esherpa-login-guard.php:887
+msgid "User-Agent kopieren"
+msgstr "Copy User-Agent"
+
+#: esherpa-login-guard.php:1041
+msgid "User-Agents blockieren (einer pro Zeile)"
+msgstr "Block User-Agents (one per line)"
+
+#: esherpa-login-guard.php:1466
+msgid "Verbindung fehlgeschlagen – prüfe später."
+msgstr "Connection failed – check later."
+
+#: esherpa-login-guard.php:1129
+msgid ""
+"Verhindert, dass Angreifer zwischen \"User existiert nicht\" und \"Falsches "
+"Passwort\" unterscheiden können (Enumeration-Schutz)."
+msgstr ""
+"Prevents attackers from distinguishing between \"User does not exist\" and "
+"\"Wrong password\" (enumeration protection)."
+
+#: esherpa-login-guard.php:1086
+msgid "Verstecktes JS-Feld zum Bot-Schutz hinzufügen (empfohlen)"
+msgstr "Add hidden JS field for bot protection (recommended)"
+
+#: esherpa-login-guard.php:820
+msgid "Versuchter Benutzername"
+msgstr "Attempted Username"
+
+#: esherpa-login-guard.php:821
+msgid "Versuchtes Passwort"
+msgstr "Attempted Password"
+
+#: esherpa-login-guard.php:747 esherpa-login-guard.php:809
+#: esherpa-login-guard.php:932
+msgid "von"
+msgstr "of"
+
+#: esherpa-login-guard.php:1218
+#, php-format
+msgid "Warte noch %s."
+msgstr "Wait %s more."
+
+#: esherpa-login-guard.php:1409
+msgid "Was solltest du nun tun?"
+msgstr "What should you do now?"
+
+#: esherpa-login-guard.php:1097
+msgid ""
+"Wenn aktiviert, wird eine gefälschte XML-RPC-Antwort mit den unten "
+"definierten Fake-Usern ausgegeben (Honeypot)."
+msgstr ""
+"When enabled, a fake XML-RPC response is returned with the fake users "
+"defined below (honeypot)."
+
+#: esherpa-login-guard.php:1064
+msgid ""
+"Wenn aktiviert: User-Agent muss exakt mit dem Eintrag übereinstimmen. Wenn "
+"deaktiviert: Teilstring-Übereinstimmung (Standard)."
+msgstr ""
+"When enabled: User-Agent must exactly match the entry. When disabled: "
+"Substring matching (default)."
+
+#: esherpa-login-guard.php:1002
+msgid ""
+"Wenn du XML_RPC nicht unbedingt benötigst, ist es ratsam es abzuschalten -> "
+"halb so viele Angriffe."
+msgstr ""
+"If you don't absolutely need XML_RPC, it's advisable to disable it -> half "
+"as many attacks."
+
+#: esherpa-login-guard.php:976
+msgid "Wie funktioniert eSherpa Login Guard?"
+msgstr "How does eSherpa Login Guard work?"
+
+#: esherpa-login-guard.php:1000
+msgid ""
+"Wähle einen einzigartigen Benutzernamen (kein „admin“, „test“, „root“ oder "
+"Begriffe die aus dem Content erraten werden könnten) und ein starkes "
+"Passwort!"
+msgstr ""
+"Choose a unique username (not 'admin', 'test', 'root' or terms that could be "
+"guessed from content) and a strong password!"
+
+#: esherpa-login-guard.php:1092
+msgid "XML-RPC deaktivieren"
+msgstr "Disable XML-RPC"
+
+#: esherpa-login-guard.php:990
+msgid ""
+"XML-RPC ist deaktiviert – verhindert Brute-Force-Angriffe über diese "
+"Schnittstelle (z. B. von Bots oder Apps)."
+msgstr ""
+"XML-RPC is disabled – prevents brute-force attacks via this interface (e.g. "
+"by bots or apps)."
+
+#: esherpa-login-guard.php:1095
+msgid "XML-RPC komplett abschalten (verhindert viele Brute-Force-Angriffe)"
+msgstr "Completely disable XML-RPC (prevents many brute-force attacks)"
+
+#: esherpa-login-guard.php:1076
+msgid ""
+"Zeigt die von Bots verwendeten Passwörter in der Fehlversuch-Tabelle an (nur "
+"bei sicher erkannten Bots). Hilft bei der Analyse von Angriffsmustern."
+msgstr ""
+"Displays passwords used by bots in the failed attempts table (only for "
+"securely detected bots). Helps with analyzing attack patterns."
+
+#: esherpa-login-guard.php:749 esherpa-login-guard.php:819
+#: esherpa-login-guard.php:942
+msgid "Zeit"
+msgstr "Time"
+
+#: esherpa-login-guard.php:1405
+msgid "Zeitpunkt:"
+msgstr "Time:"
+
+#: esherpa-login-guard.php:209 esherpa-login-guard.php:240
+#: esherpa-login-guard.php:1215
+msgid "Zugriff gesperrt"
+msgstr "Access Blocked"
+
+#: esherpa-login-guard.php:1139
+msgid ""
+"Ältere Einträge werden täglich automatisch gelöscht (Datenschutz & "
+"Performance). Standard: 7 Tage"
+msgstr ""
+"Older entries are automatically deleted daily (privacy & performance). "
+"Default: 7 days"
+
+#: esherpa-login-guard.php:1059
+msgid "Übereinstimmungsmodus"
+msgstr "Matching Mode"

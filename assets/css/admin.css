@@ -1,0 +1,41 @@
+@keyframes guardBreathe {
+    0% { transform: scale(0.001); }
+    5% { transform: scale(2); }
+    7% { transform: scale(1); }
+    9% { transform: scale(2); }
+    20% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+/* Guard message container (für wp-login.php und andere Seiten) */
+#esherpa-guard-message-container {
+    margin: 25px auto;
+    max-width: 500px;
+}
+@media (max-width: 500px) {
+	.button.button-primary{
+		padding:0 5px !important;
+		font-size:10px !important;
+		min-height:30px !important;
+	}
+}
+
+@media (max-width: 782px) {
+    .esherpa-table-scroll-hint {
+        display: block;
+        margin: 6px 0 10px;
+        font-size: 12px;
+        color: #50575e;
+    }
+
+    .esherpa-table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .esherpa-table-scroll .wp-list-table {
+        min-width: 900px;
+    }
+}
